@@ -1,0 +1,262 @@
+.contentscreen {
+    height: 372px;
+    background: #E3E1DF;
+    overflow-y: hidden;
+}
+.consec {
+    padding:  50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    color: #000;
+
+}
+.getintopic {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+.getindes {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mail {
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+    width: 190px;
+    height: 55px;
+    flex-shrink: 0;
+}
+.mail:hover {
+    background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+    transform: scale(1.09);
+}
+.call {
+    border-radius: 50px;
+    border: 2px solid #F27507;
+    width: 190px;
+    height: 55px;
+    flex-shrink: 0;
+}
+.call:hover {
+    transform: scale(1.09);
+}
+.conimage {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.mailword {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    margin-left: 10px;
+    margin-top: 0px;
+    display: flex;
+    
+    margin-left: 70px;
+    margin-top: -30px;
+}
+.callword {
+    color: #F1760A;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    display: flex;
+    
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.con1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: -300px;
+    margin-left: -400px;
+    
+}
+.con2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: -300px;
+    
+}
+.con3 {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    margin-top: -150px;
+    margin-left: 200px;
+    
+}
+.con4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -250px;
+    margin-left: 400px;
+    
+}
+@media (max-width: 768px) {
+    .getintopic {
+        font-size: 25px;
+    }
+    .getindes {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .mail {
+        width: 150px;
+        height: 45px;
+    }
+    .call {
+        width: 150px;
+        height: 45px;
+    }
+    .mailword {
+        font-size: 20px;
+        margin-left: 55px;
+        margin-top: -27px;
+    }
+    .callword {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: -27px;
+    }
+    .conimage {
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+        margin-top: 7px;
+    }
+    .con1 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-top: -250px;
+        margin-left: -300px;
+        
+    }
+    .con2 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-top: -50px;
+        margin-left: -200px;
+        
+    }
+    .con3 {
+        position: absolute;
+        width: 15px;
+        height: 10px;
+        margin-top: -140px;
+        margin-left: 150px;
+        
+    }
+    .con4 {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-top: -250px;
+        margin-left: 250px;
+        
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .contentscreen {
+        height: 300px;
+    }
+    .getintopic {
+        font-size: 20px;
+    }
+    .getindes {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        width: 480px;
+    }
+    .mail {
+        width: 120px;
+        height: 40px;
+    }
+    .call {
+        width: 120px;
+        height: 40px;
+    }
+    .mailword {
+        font-size: 16px;
+        margin-left: 45px;
+        margin-top: -22px;
+    }
+    .callword {
+        font-size: 16px;
+        margin-left: 40px;
+        margin-top: -22px;
+    }
+    .conimage {
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+    .con1 {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-top: -200px;
+        margin-left: -200px;
+        
+    }
+    .con2 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-top: -50px;
+        margin-left: -170px;
+        
+    }
+    .con3 {
+        position: absolute;
+        
+        margin-top: -120px;
+        margin-left: 150px;
+        
+    }
+    .con4 {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin-top: -200px;
+        margin-left: 200px;
+        
+    }
+}

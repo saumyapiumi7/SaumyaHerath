@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Section</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        /* General Styling */
+
+
+/* Footer Styling */
+footer {
+    margin: -10px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 250px;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.scroll-to-top {
+    display: inline-block;
+    width: 50px;
+height: 50px;
+transform: rotate(-45deg);
+flex-shrink: 0;
+    border-radius: 100px;
+border: 2px solid #FFF;
+background: #FD853A;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+    transform: scale(1.05);
+    transform: rotate(-45deg);
+
+
+}
+.arw{
+    width: 50px;
+    height: 40px;
+    rotate: 45deg;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+
+
+
+
+.social-icons {
+    margin: 20px 0;
+    width: 365px;
+height: 50px;
+flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+
+.social-icons a .fab {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 24px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: transform 0.3s;
+    
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    margin-top: 20px;
+    color: #030100;
+text-align: center;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.36px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .social-icons a {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .scroll-to-top {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .social-icons {
+        margin: 15px 0;
+    }
+
+    .social-icons a {
+        font-size: 18px;
+        margin: 0 8px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-container">
+            <a href="#top" class="scroll-to-top">
+                <img class="arw" src="/assets/images/uparow.png"></img>
+
+
+            </a>
+            <div class="social-icons">
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.behance.net" target="_blank"><i class="fab fa-behance"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p>&copy; Copyright © 2025 Saumya Herath. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

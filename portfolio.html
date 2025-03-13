@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+
+/* Default: Ensures a minimum width */
+
+
+
+
+
+ 
+        .portfolio {
+            height: 831px;
+            background: #E9DDD2;
+            background: linear-gradient(rgba(141, 141, 141, 0.5), rgba(0, 0, 0, 0.5)), 
+            url("/assets/images/Portfolioback.png");
+            background-position: top left;  ;
+            background-size: 100% ;  
+            background-repeat: repeat;
+            
+        }
+       
+        .portfolioBox {
+            width: 90%;
+            height: 712px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            border: 1px solid #000;
+            background: rgba(233, 221, 210, 0.90);
+            margin-left:5% ;
+            padding-top: 10px;
+        }
+        .resumetoptopic {
+            color: #030100;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            line-height: 2.4;
+            font-weight: 600;
+            letter-spacing: -0.48px;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-decoration: underline #F27507;
+            text-decoration-thickness: 3px;
+        }
+
+
+        .section-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            margin-left: -200px;
+            gap: 50px; /* Space between Development and Design */
+        }
+   
+
+        .active {
+            color: #EC7205;
+            text-decoration: underline black ;
+            text-decoration-thickness: 3px;
+        }
+
+        .developmentsection {
+            color: #EC7205;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.32px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-left: 30%;
+
+        }
+
+        .designsection {
+            color: #000;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.48px;
+        cursor: pointer;
+            transition: all 0.3s ease;
+            margin-left: 50%;
+
+        }
+
+        #development {
+            display: block;
+        }
+
+        #design {
+            display: none;
+        }
+
+        .devset {
+            
+            margin-top: 20px;
+        }
+        .designset {
+            margin-top: 20px;
+            margin-left: -275px;
+        }
+        .devproject {
+            display: flex;
+            
+        }
+        .projects {
+            display: flex;
+            position: absolute;
+            gap: 20px;
+            margin-left: -300px;
+            margin-top: 10px;
+
+        }
+        
+        .devOne {
+    width: 284px;
+    height: 470px;
+    margin-top: 10px;
+    border: 3px solid #ffffff;
+    background: #B6B4B3;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.projectimage1 {
+            border-radius: 30px 30px 0px 0px;
+            border: 2px solid #fffffe;
+            background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+            width: 282px;
+            height: 200px;
+            flex-shrink: 0;
+            position: absolute;
+            margin-top: -1px;
+        }
+
+
+
+        
+        .projectimage {
+            border-radius: 30px 30px 0px 0px;
+            border: 2px solid #fffffe;
+            background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+            width: 282px;
+            height: 173px;
+            flex-shrink: 0;
+            position: absolute;
+            margin-top: -1px;
+        }
+        .projectdetails {
+            padding-top: 180px;
+            width: 229px;
+            color: #000;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.24px;
+            position: relative;
+            margin-left: 25px;
+        }
+        .projectdetails2 {
+            padding-top: 210px;
+            width: 229px;
+            color: #000;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.24px;
+            position: relative;
+            margin-left: 25px;
+        }
+        .projectname8 {
+            margin-top: -5px;
+            font-size: 17px;
+        }
+        .projectdesc{
+            color: #000;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.24px;
+            margin-top: 10px;
+        }
+        .projectdesc8{
+            color: #000;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.24px;
+            margin-top: 5px;
+        }
+        
+    
+.projectskills {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to move to the next line */
+    gap: 10px; /* Space between skill items */
+    justify-content: center; /* Align skills in the center */
+    max-width: 280px; /* Adjust as needed */
+    margin-top: 8px; /* Centers the container */
+}
+
+    
+.projectskills8 {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to move to the next line */
+    gap: 5px; /* Space between skill items */
+    justify-content: center; /* Align skills in the center */
+    max-width: 280px; /* Adjust as needed */
+    margin-top: 6px; /* Centers the container */
+    margin-left: -10px; /* Centers the container */
+}
+
+
+.projectskills1 {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to move to the next line */
+    gap: 15px; /* Space between skill items */
+    justify-content: center; /* Align skills in the center */
+    max-width: 200px; /* Adjust as needed */
+    margin-top: 25px; /* Centers the container */
+    margin-left: 40px; /* Centers the container */
+}
+
+.projectskills2 {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to move to the next line */
+    gap: 15px; /* Space between skill items */
+    justify-content: center; /* Align skills in the center */
+    max-width: 200px; /* Adjust as needed */
+    margin-top: 15px; /* Centers the container */
+    margin-left: 20px; /* Centers the container */
+}
+
+
+.skillp {
+    max-width: 80px; /* Allows expansion for long text */
+    padding: 10px 20px; /* Extra padding for better spacing */
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background: #E9DDD2;
+    color: #030100;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 0.75; /* Better readability */
+    word-wrap: break-word; /* Ensures long words wrap */
+    white-space: normal; /* Allows multi-line text */
+}
+.nextskill{
+    max-width: 160px; /* Allows expansion for long text */
+    padding: 10px 10px; /* Extra padding for better spacing */
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background: #E9DDD2;
+    color: #030100;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 0.75; /* Better readability */
+    word-wrap: break-word; /* Ensures long words wrap */
+    white-space: normal;
+
+}
+
+.nextskill2{
+    max-width: 160px; /* Allows expansion for long text */
+    padding: 8px 10px; /* Extra padding for better spacing */
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background: #E9DDD2;
+    color: #030100;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 0.75; /* Better readability */
+    word-wrap: break-word; /* Ensures long words wrap */
+    white-space: normal;
+
+}
+.arrowraund{
+    width: 50px;
+    height: 50px;
+    fill: #B6B4B3;
+
+    background: #EC7205;
+    border: #FFF solid 2px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 410px;
+    margin-right: 5px;
+}
+.arrowraund:hover{
+    background: linear-gradient(90deg, #F27507 42.5%, #EC7205 70.5%, #E08D45 100%);
+    transform: scale(1.2);
+}
+.arrowimg{
+    width: 20px;
+    height: 20px;
+    transform: rotate(10deg);
+    flex-shrink: 0;
+    
+}
+.portfolioGB {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -100px;
+    margin-left: 1%;
+    
+}
+.portfolioG , .portfolioB {
+    width: 500px;
+    height: 55px;
+    border: 2px solid #ffffff;
+    background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.portfolioG:hover , .portfolioB:hover {
+    background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+    transform: scale(1.05);
+}
+.prortfolioGBImage{
+    width: 45px;
+    height: 45px;
+    margin-left: -55px;
+    
+}
+.portfolioGBName{
+    color: #000;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.36px;
+margin-left: 20px;
+}
+
+.portfolioB .prortfolioGBImage {
+    margin-left: -125px;
+}
+
+
+@media (max-width: 1200px) and (min-width: 700px) {
+    .portfolio {
+                height: 1450px;
+            }
+            .section-container{
+                margin-left: -150px;
+
+            }
+            .developmentsection{
+                font-size: 25px;
+            }
+            .designsection{
+                font-size: 25px;
+            }
+            .portfolioBox{
+                height: 1250px;
+                margin-bottom: 230px;
+            }
+            .projects{
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-left: -60px;
+
+            }
+            .designset {
+            margin-left: -230px;
+        }
+        .portfolioGB{
+            margin-top: -400px;
+            gap: 10px;
+        }
+        .portfolioG , .portfolioB {
+            width: 400px;
+        }
+        .portfolioGBName{
+            font-size: 15px;
+        }
+        .prortfolioGBImage{
+            width: 40px;
+        }
+        .portfolioB .prortfolioGBImage {
+            margin-left: -100px;
+            }
+        }
+
+        @media (max-width: 699px) and (min-width: 300px) {
+            .projects {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-left: -80px;
+            }
+            .projects > *:nth-child(2),
+            .projects > *:nth-child(4) {
+                display: none;
+            }
+            .section-container{
+                margin-left: -100px;
+
+            }
+            .developmentsection{
+                font-size: 22px;
+            }
+            .designsection{
+                font-size: 22px;
+            }
+            .devset{
+                margin-left: 130px;
+            }
+            .designset {
+                margin-left: -70px;
+            }
+
+
+            .portfolioGB{
+            gap: 5px;
+        }
+        .portfolioG , .portfolioB {
+            width: 300px;
+            
+        }
+        .portfolioGBName{
+            font-size: 14px;
+        }
+        .prortfolioGBImage{
+            width: 30px;
+        }
+        .portfolioB .prortfolioGBImage {
+            margin-left: -35px;
+            }
+            .portfolioG .prortfolioGBImage {
+            margin-left: 5px;
+            }
+
+            
+        }
+            
+
+        
+
+
+
+
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="portfolio">
+        <h1 class="resumetoptopic"> Portfolio</h1>
+        <div class="portfolioBox">
+            <div class="section-container">
+                <div class="portfolioprojectset" >
+                    <h1 class="developmentsection active" onclick="changeSection('development', event)">Development</h1>
+                    <div id="development">
+                        <div class="devset">
+                            <div class="devproject">
+                                <div class="projects">
+                                    <div class="devOne">
+                                        <img class="projectimage" src="https://www.thoughtco.com/thmb/wP2xNOwwIonFMbDXkJvmAJ4HpeA=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/a-right-hand-of-asian-skin-is-sending-letter-to-post-box-974020720-5c5f239646e0fb0001ca87ba.jpg" alt="">
+                                        <div class="projectdetails">
+                                            <h2 class="projectname">Smart Letter Box Notification System</h2>
+                                            <p class="projectdesc">Designed and implemented an innovative Smart Letter Box Notification System leveraging IoT technology for real-time notifications upon mail delivery.</p>
+                                        </div>
+                                        <div class="projectskills">
+                                            <div class="skillp">Arduino </div>
+                                            <div class="skillp">Blynk </div>
+                                            <div class="skillp">IFTTT</div>
+                                            <div class="skillp">ESP8266</div>
+                                            <div class="nextskill">IoT </div>                                 
+                                        </div>
+                                        <div class="arrowraund" onclick="openGitHub1()">
+                                            <img class="arrowimg" src="/assets/images/arrow.svg" alt="">
+
+                                        </div>
+                               
+    
+                                    </div>
+                                    <div class="devOne">
+                                        <img class="projectimage" src="https://wellnesscenter.uic.edu/wp-content/uploads/sites/100/2020/12/COVID-19-VACCINE-GENERIC-BLUE-BACKGROUND-1090x595.jpg" alt="">
+                                        <div class="projectdetails">
+                                            <h2 class="projectname">Person's Vaccine Management Receipt</h2>
+                                            <p class="projectdesc">Developed a desktop application to manage vaccine Receipt, allows users to manage vaccination details for individuals.</p>
+                                        </div>
+                                        <div class="projectskills1">
+                                            <div class="skillp">Python </div>
+                                            <div class="skillp">Tkinter </div>
+                                            <div class="skillp">PIL</div>
+                                                                            
+                                        </div>
+                                        <div class="arrowraund" onclick="openGitHub2()">
+                                            <img class="arrowimg" src="/assets/images/arrow.svg" alt="">
+
+                                        </div>
+                               
+    
+                                    </div>
+                                    <div class="devOne">
+                                        <img class="projectimage" src="https://www.thewatchtower.uk/assets/images/blog_images/how-to-get-audible-free-in-the-uk.jpg" alt="">
+                                        <div class="projectdetails">
+                                            <h2 class="projectname">Audible Audio Book Mobile Application</h2>
+                                            <p class="projectdesc">Developed a mobile application for browsing, purchasing, and listening to audiobooks with user reviews and personalized recommendations.</p>
+                                        </div>
+                                        <div class="projectskills2">
+                                            <div class="nextskill">React Native </div>
+                                            <div class="skillp">Firebase </div>
+                               
+                                        </div>
+                                        <div class="arrowraund" onclick="openGitHub3()">
+                                            <img class="arrowimg" src="/assets/images/arrow.svg" alt="">
+
+                                        </div>
+                               
+    
+                                    </div>
+                                    <div class="devOne">
+                                        <img class="projectimage" src="https://www.thoughtco.com/thmb/wP2xNOwwIonFMbDXkJvmAJ4HpeA=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/a-right-hand-of-asian-skin-is-sending-letter-to-post-box-974020720-5c5f239646e0fb0001ca87ba.jpg" alt="">
+                                        <div class="projectdetails">
+                                            <h2 class="projectname">Age Calculator Desktop Application</h2>
+                                            <p class="projectdesc">Developed a desktop application to calculate Age, allows users to calculate their age based on their date of birth.</p>
+                                        </div>
+                                        <div class="projectskills1">
+                                            <div class="skillp">Python </div>
+                                            <div class="skillp">Tkinter </div>
+                                            <div class="skillp">PIL</div>
+                                                                             
+                                        </div>
+                                        <div class="arrowraund" onclick="openGitHub4()">
+                                            <img class="arrowimg" src="/assets/images/arrow.svg" alt="">
+
+                                        </div>
+                               
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="designsection" onclick="changeSection('design', event)">Design</h1>
+                    <div id="design" style="display: none;">
+                        <div class="designset">
+                            <div class="devproject">
+                                <div class="projects">
+                                    <div class="devOne">
+                                        <img class="projectimage1" src="/assets/images/1 (2).png" alt="">
+                                        <div class="projectdetails2">
+                                            <h2 class="projectname8">Click Me Rent Service - Case Study</h2>
+                                            <p class="projectdesc">A detailed case study on the design process of a rental service platform, focusing on user-centered design principles and seamless user experience.</p>
+                                        </div>
+                                        <div class="projectskills8">
+                                            <div class="nextskill">Figma </div>
+                                            <div class="nextskill">Canva </div>
+                                            <div class="nextskill"> Adobe Photoshop</div>
+                                                                           
+                                        </div>
+                                        <div class="arrowraund" onclick="behance1()">
+                                            <img class="arrowimg" src="/assets/images/arrow.svg" alt="">
+
+                                        </div>
+                               
+    
+                                    </div>
+                                    <div class="devOne">
+                                        <img class="projectimage1" src="/assets/images/2.png" alt="">
+                                        <div class="projectdetails2">
+                                            <h2 class="projectname8">Cake Flavors - Desktop Interface Design</h2>
+                                            <p class="projectdesc8">Designed interactive and vibrant interfaces for a cake shop, with an emphasis on showcasing different cake flavors through engaging visuals and smooth interactions. Adjusted color schemes to align with the flavor’s theme.</p>
+                                        </div>
+                                        <div class="projectskills8">
+                                            <div class="nextskill2"> Figma </div>
+                                            <div class="nextskill2">Canva </div>
+                                            <div class="nextskill2">Adobe Photoshop</div>
+                                                                            
+                                        </div>
+                                        <div class="arrowraund" onclick="behance2()">
+                                            <img class="arrowimg" src="/assets/images/arrow.svg" alt="">
+
+                                        </div>
+                               
+    
+                                    </div>
+                                    <div class="devOne">
+                                        <img class="projectimage1" src="/assets/images/3.png" alt="">
+                                        <div class="projectdetails2">
+                                            <h2 class="projectname8">Music Listing Mobile App Design</h2>
+                                            <p class="projectdesc">Designed an intuitive music app focused on delivering a personalized music experience, integrating custom playlist creation, song recommendations, and a user-friendly interface.</p>
+                                        </div>
+                                        <div class="projectskills2">
+                                            <div class="skillp">Figma </div>
+                               
+                                        </div>
+                                        <div class="arrowraund" onclick="behance3()">
+                                            <img class="arrowimg" src="/assets/images/arrow.svg" alt="">
+
+                                        </div>
+                               
+    
+                                    </div >
+                                    <div class="devOne">
+                                        <img class="projectimage1" src="assets/images/4.png" alt="">
+                                        <div class="projectdetails2">
+                                            <h2 class="projectname8">T-shirt Designs</h2>
+                                            <p class="projectdesc8">Created unique T-shirt designs, blending modern graphic elements with contemporary trends, aiming for bold and catchy visuals. The process involved experimenting with different design styles, from minimalist to bold and graphic-heavy designs, while considering fabric printing techniques for the final product</p>
+                                        </div>
+                                        <div class="projectskills8">
+                                            <div class="nextskill2">Adobe Photoshop </div>
+                                            
+                                                                             
+                                        </div>
+                                        <div class="arrowraund" onclick="behance4()">
+                                            <img class="arrowimg" src="/assets/images/arrow.svg" alt="">
+
+                                        </div>
+                                        
+                               
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+
+        </div>
+        <div class="portfolioGB">
+            <div class="portfolioG" onclick="GitHub()">
+                <img class="prortfolioGBImage" src="/assets/images/git.svg" alt="">
+                <h1 class="portfolioGBName">See More Development Projects</h1>
+            </div>
+            <div class="portfolioB" onclick="Behance()">
+                <img class="prortfolioGBImage" src="/assets/images/behance.svg" alt="">
+                <h1 class="portfolioGBName">See More Design Projects</h1>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    
+
+</body>
+</html>
+
+<script>
+
+function changeSection(section, event) {
+    // Prevent the page from jumping to the top
+    event.preventDefault();
+
+    // Save the current scroll position
+    let scrollY = window.scrollY;
+
+    // Reset all sections to be hidden
+    document.getElementById('development').style.display = 'none';
+    document.getElementById('design').style.display = 'none';
+
+    // Remove active class from both titles and set color back to black
+    document.querySelector('.developmentsection').classList.remove('active');
+    document.querySelector('.designsection').classList.remove('active');
+
+    document.querySelector('.developmentsection').style.color = 'black';
+    document.querySelector('.designsection').style.color = 'black';
+
+    // Show the selected section and apply active class
+    if (section === 'development') {
+        document.getElementById('development').style.display = 'block';
+        document.querySelector('.developmentsection').classList.add('active');
+        document.querySelector('.developmentsection').style.color = '#EC7205'; // Orange color for active
+    } else {
+        document.getElementById('design').style.display = 'block';
+        document.querySelector('.designsection').classList.add('active');
+        document.querySelector('.designsection').style.color = '#EC7205'; // Orange color for active
+    }
+
+    // Restore the scroll position
+    window.scrollTo(0, scrollY);
+}
+
+function openGitHub1() {
+    window.open("https://github.com/saumyapiumi7/vibrant-navscape", "_blank");
+}
+function openGitHub2() {
+    window.open("https://github.com/saumyapiumi7/vaccine-recipt", "_blank");
+}
+function openGitHub3() {
+    window.open("https://github.com/FHSS-USJ/end-semester-exam-group-4", "_blank");
+}
+function openGitHub4() {
+    window.open("https://github.com/saumyapiumi7/Age-Calculator", "_blank");
+}
+
+function behance1() {
+    window.open("https://www.behance.net/gallery/217135273/Rent-Car-Service-Platform", "_blank");
+}
+function behance2() {
+    window.open("https://www.behance.net/gallery/217425767/Cake-Shop-Desktop-UI-Design-(flavors-)", "_blank");
+}
+function behance3() {
+    window.open("https://www.behance.net/gallery/217562681/Music-Listening-Mobile-App-UI", "_blank");
+}
+function behance4() {
+    window.open("https://www.behance.net/gallery/217564029/T-Shirt-Designs", "_blank");
+}
+
+
+function GitHub() {
+    window.open("https://github.com/saumyapiumi7", "_blank");
+}
+function Behance() {
+    window.open("https://www.behance.net/saumyaherath", "_blank");
+}
+
+
+
+
+</script>

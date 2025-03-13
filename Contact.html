@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in Touch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .contentscreen {
+            height: 372px;
+            background: #E3E1DF;
+        }
+        .consec {
+            padding:  50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            text-align: center;
+            color: #000;
+
+        }
+        .getintopic {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.48px;
+        }
+        .getindes {
+            color: #000;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -0.36px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .mail {
+            border-radius: 50px;
+            border: 3px solid #FFF;
+            background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+            width: 190px;
+            height: 55px;
+            flex-shrink: 0;
+        }
+        .mail:hover {
+            background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+            transform: scale(1.09);
+        }
+        .call {
+            border-radius: 50px;
+            border: 3px solid #F27507;
+            width: 190px;
+            height: 55px;
+            flex-shrink: 0;
+        }
+        .call:hover {
+            transform: scale(1.09);
+        }
+        .conimage {
+            width: 35px;
+            height: 35px;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        .mailword {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.36px;
+            margin-left: 10px;
+            margin-top: 0px;
+            display: flex;
+            
+            margin-left: 70px;
+            margin-top: -30px;
+        }
+        .callword {
+            color: #F1760A;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.36px;
+            display: flex;
+            
+            margin-left: 60px;
+            margin-top: -30px;
+        }
+        .con1 {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: 450px;
+            top: 50px;
+        }
+        .con2 {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 500px;
+            top: 300px;
+        }
+        .con3 {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 950px;
+            top: 200px;
+        }
+        .con4 {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 1150px;
+            top: 80px;
+        }
+
+       
+           
+    </style>
+</head>
+<body >
+
+    <div class="contentscreen">
+
+        <!-- Get in Touch Section -->
+        <div class="consec">
+            <h2 class="getintopic">Get in Touch</h2>
+            <p class="getindes">Looking for opportunities to collaborate or discuss technology? <br> Let's connect!</p>
+            
+
+            <div class="flex justify-center gap-6">
+                <!-- Email Button -->
+                <a href="mailto:saumyapiumi7@gmail.com" class="mail">
+                    <img class="conimage" src="assets/images/email.svg" alt="">
+                    <span class="mailword">Email</span> 
+                </a>
+
+                <!-- Call Me Button -->
+                <a href="tel:+94703113226" class="call">
+                    <img class="conimage" src="assets/images/call.svg" alt="">
+
+                    <span class="callword">Call Me</span> 
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <img class="con1" src="assets/images/con1.svg" alt="">
+            <img class="con2" src="assets/images/con2.svg" alt="">
+            <img class="con3" src="assets/images/con3.svg" alt="">
+            <img class="con4" src="assets/images/con4.svg" alt="">
+        </div>
+
+    </div>
+
+</body>
+</html>

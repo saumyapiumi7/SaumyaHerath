@@ -1,0 +1,482 @@
+
+.portfolioscreen{
+    height: 831px;
+    background: #E9DDD2;
+    background: linear-gradient(rgba(141, 141, 141, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("/assets/images/Portfolioback.png");
+    background-position: top left;  ;
+    background-size: 100% ;  
+    background-repeat: repeat;
+}
+.portfolioBox {
+    width: 90%;
+    height: 712px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: rgba(233, 221, 210, 0.90);
+    margin-left:5% ;
+    padding-top: 10px;
+}
+.resumetoptopic {
+    color: #030100;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 2.4;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-decoration: underline #F27507;
+    text-decoration-thickness: 3px;
+}
+
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -200px;
+    gap: 50px; /* Space between Development and Design */
+}
+
+
+.active {
+    color: #EC7205;
+    text-decoration: underline black ;
+    text-decoration-thickness: 3px;
+}
+
+.developmentsection {
+    color: #EC7205;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 30%;
+
+}
+
+.designsection {
+    color: #000;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.48px;
+cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 50%;
+
+}
+
+#development {
+    display: block;
+}
+
+#design {
+    display: none;
+}
+
+.devset {
+    
+    margin-top: 20px;
+}
+.designset {
+    margin-top: 20px;
+    margin-left: -275px;
+}
+.devproject {
+    display: flex;
+    
+}
+.projects {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    margin-left: -300px;
+    margin-top: 10px;
+
+}
+
+.devOne {
+width: 284px;
+height: 470px;
+margin-top: 10px;
+border: 3px solid #ffffff;
+background: #B6B4B3;
+border-radius: 30px;
+position: relative;
+overflow: hidden;
+}
+
+.projectimage1 {
+    border-radius: 30px 30px 0px 0px;
+    border: 2px solid #fffffe;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    width: 282px;
+    height: 200px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: -1px;
+}
+
+
+
+
+.projectimage {
+    border-radius: 30px 30px 0px 0px;
+    border: 2px solid #fffffe;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    width: 282px;
+    height: 173px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: -1px;
+}
+.projectdetails {
+    padding-top: 180px;
+    width: 229px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    position: relative;
+    margin-left: 25px;
+}
+.projectdetails2 {
+    padding-top: 210px;
+    width: 229px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    position: relative;
+    margin-left: 25px;
+}
+.projectname8 {
+    margin-top: -5px;
+    font-size: 17px;
+}
+.projectdesc{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    margin-top: 10px;
+}
+.projectdesc8{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    margin-top: 5px;
+}
+
+
+.projectskills {
+display: flex;
+flex-wrap: wrap; /* Allows items to move to the next line */
+gap: 10px; /* Space between skill items */
+justify-content: center; /* Align skills in the center */
+max-width: 280px; /* Adjust as needed */
+margin-top: 8px; /* Centers the container */
+}
+
+
+.projectskills8 {
+display: flex;
+flex-wrap: wrap; /* Allows items to move to the next line */
+gap: 5px; /* Space between skill items */
+justify-content: center; /* Align skills in the center */
+max-width: 280px; /* Adjust as needed */
+margin-top: 6px; /* Centers the container */
+margin-left: -10px; /* Centers the container */
+}
+
+
+.projectskills1 {
+display: flex;
+flex-wrap: wrap; /* Allows items to move to the next line */
+gap: 15px; /* Space between skill items */
+justify-content: center; /* Align skills in the center */
+max-width: 200px; /* Adjust as needed */
+margin-top: 25px; /* Centers the container */
+margin-left: 40px; /* Centers the container */
+}
+
+.projectskills2 {
+display: flex;
+flex-wrap: wrap; /* Allows items to move to the next line */
+gap: 15px; /* Space between skill items */
+justify-content: center; /* Align skills in the center */
+max-width: 200px; /* Adjust as needed */
+margin-top: 15px; /* Centers the container */
+margin-left: 20px; /* Centers the container */
+}
+
+
+.skillp {
+max-width: 80px; /* Allows expansion for long text */
+padding: 10px 20px; /* Extra padding for better spacing */
+border-radius: 50px;
+border: 1px solid #FFF;
+background: #E9DDD2;
+color: #030100;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+line-height: 0.75; /* Better readability */
+word-wrap: break-word; /* Ensures long words wrap */
+white-space: normal; /* Allows multi-line text */
+}
+.nextskill{
+max-width: 160px; /* Allows expansion for long text */
+padding: 10px 10px; /* Extra padding for better spacing */
+border-radius: 50px;
+border: 1px solid #FFF;
+background: #E9DDD2;
+color: #030100;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+line-height: 0.75; /* Better readability */
+word-wrap: break-word; /* Ensures long words wrap */
+white-space: normal;
+
+}
+
+.nextskill2{
+max-width: 160px; /* Allows expansion for long text */
+padding: 8px 10px; /* Extra padding for better spacing */
+border-radius: 50px;
+border: 1px solid #FFF;
+background: #E9DDD2;
+color: #030100;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+line-height: 0.75; /* Better readability */
+word-wrap: break-word; /* Ensures long words wrap */
+white-space: normal;
+
+}
+.arrowraund{
+width: 50px;
+height: 50px;
+fill: #B6B4B3;
+
+background: #EC7205;
+border: #FFF solid 2px;
+border-radius: 50%;
+position: absolute;
+top: 0;
+right: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: all 0.3s ease;
+margin-top: 410px;
+margin-right: 5px;
+}
+.arrowraund:hover{
+background: linear-gradient(90deg, #F27507 42.5%, #EC7205 70.5%, #E08D45 100%);
+transform: scale(1.2);
+}
+.arrowimg{
+width: 20px;
+height: 20px;
+transform: rotate(10deg);
+flex-shrink: 0;
+
+}
+.portfolioGB {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+margin-top: -100px;
+margin-left: 1%;
+
+
+
+}
+.portfolioG , .portfolioB {
+width: 500px;
+height: 55px;
+border: 2px solid #ffffff;
+background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.portfolioG:hover , .portfolioB:hover {
+background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+transform: scale(1.05);
+}
+.prortfolioGBImage{
+width: 45px;
+height: 45px;
+margin-left: -55px;
+
+}
+.portfolioGBName{
+color: #000;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.36px;
+margin-left: 20px;
+}
+
+.portfolioB .prortfolioGBImage {
+margin-left: -125px;
+}
+
+
+@media (max-width: 768px) {
+    .portfolioscreen {
+        height: 1500px;
+    }
+    .portfolio {
+        height: 1450px;
+    }
+    .section-container{
+        margin-left: -150px;
+
+    }
+    .developmentsection{
+        font-size: 25px;
+    }
+    .designsection{
+        font-size: 25px;
+    }
+    .portfolioBox{
+        height: 1250px;
+        margin-bottom: 230px;
+    }
+    .projects{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -60px;
+
+    }
+    .designset {
+    margin-left: -230px;
+}
+.portfolioGB{
+    margin-top: -400px;
+    gap: 10px;
+}
+.portfolioG , .portfolioB {
+    width: 400px;
+}
+.portfolioGBName{
+    font-size: 15px;
+}
+.prortfolioGBImage{
+    width: 40px;
+}
+.portfolioB .prortfolioGBImage {
+    margin-left: -100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolioscreen {
+        height: 1480px;
+    }
+    .projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -80px;
+    }
+    .projects > *:nth-child(2),
+    .projects > *:nth-child(4) {
+        display: none;
+    }
+    .section-container{
+        margin-left: -100px;
+
+    }
+    .developmentsection{
+        font-size: 22px;
+    }
+    .designsection{
+        font-size: 22px;
+    }
+    .devset{
+        margin-left: 130px;
+    }
+    .designset {
+        margin-left: -70px;
+    }
+
+
+    .portfolioGB{
+    gap: 5px;
+}
+.portfolioG , .portfolioB {
+    width: 300px;
+    
+}
+.portfolioGBName{
+    font-size: 14px;
+}
+.prortfolioGBImage{
+    width: 30px;
+}
+.portfolioB .prortfolioGBImage {
+    margin-left: -35px;
+    }
+    .portfolioG .prortfolioGBImage {
+    margin-left: 5px;
+    }
+
+    
+}

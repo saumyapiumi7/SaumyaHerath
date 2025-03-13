@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Saumya Herath</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    
+.aboutScreen {
+    padding-top: 60px;
+    background: #E9DDD2;;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+    overflow: hidden;
+    height: 150vh;
+
+
+  }
+  .hello {
+    position: relative;
+    top: -50px; 
+    left: 50%;
+    border-radius: 50px;
+    border: 2px solid #F27507;
+    background: rgba(217, 217, 217, 0.00);
+    width: 85px;
+    height: 32px;   
+         
+  }
+  .smalllineup {
+    position: relative;
+    top: -40px;
+    left: 56.3%;
+    width: 27.5px;
+    height: 28.5px;
+    rotate:16deg;
+
+  }
+  
+  .nameline {
+    display: flex;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+    gap: 10px; 
+    margin-left: 80px;
+    
+  }
+  .im {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.6px;
+  }
+  .saumya {
+    color: #403E3C;
+    font-size: 30px;
+    font-weight: 700;
+    color: #F27507;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.6px;
+  }
+  .herathabout {
+    color: #403E3C;
+    font-size: 30px;
+    font-weight: 700;
+    color: #403E3C;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.48px;
+  }
+  .nametopline {
+    margin-top: 0px;
+    color: #030100;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.33px;
+  }
+  .smalllinedown {
+    position: relative;
+    top: 26px;
+    left: 32%;
+    width: 50px;
+    height: 28.5px;
+    flex-shrink: 0;
+    transform: rotate(8deg);
+  }
+  .comma {
+    position: relative;
+    top: 20px;
+    left: 1%;
+    width: 36px;
+    height: 37.772px;
+    flex-shrink: 0;
+  }
+  .aboutMeText {
+    color: #030100;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+    letter-spacing: -0.3px;
+    margin-top: 40px;
+    width: 50%;
+    
+  }
+  .me {
+    position: relative;
+    top: -50px;
+    left: 5%; 
+    
+    flex-shrink: 0;
+  }
+  .resumeButton {
+width: 211px;
+height: 54px;
+flex-shrink: 0;
+background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+border: 2px solid white;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+margin-left: 9%;
+}
+
+.resumeButton:hover {
+transform: scale(1.05);
+}
+
+.imgresume {
+width: 35px;
+height: 35px;
+flex-shrink: 0;
+}
+
+.txtresume {
+color: #030100;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgba(0, 0, 0, 0);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.3px;
+text-decoration: none;
+}
+.linktreeButton {
+width: 211px;
+height: 54px;
+flex-shrink: 0;
+background: linear-gradient(90deg, #F27507 42.5%, #CEA582 70.5%, #E08D45 100%);
+border: 2px solid white;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+margin-left: 29%;
+margin-top: -55px;
+}
+
+.linktreeButton:hover {
+transform: scale(1.05);
+}
+
+.linktreeimg {
+width: 35px;
+height: 35px;
+flex-shrink: 0;
+}
+
+.txtlinktre {
+color: #030100;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgba(0, 0, 0, 0);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.3px;
+text-decoration: none;
+}
+.backbigrec {
+width: 517px;
+height: 599px;
+position: relative;
+top: -620px;
+left: 76%;
+transform: translateX(-50%);
+flex-shrink: 0;
+}
+/* General Profile Card Styles */
+.profile-card {
+  width: 353px;
+  height: 524px;
+  flex-shrink: 0;
+  padding: 20px;
+  border-radius: 8px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.21px;
+  position: relative;
+  top: -1200px;
+  left: 60%;
+  text-align: left;
+}
+.cardtopic {
+color: #8A8989;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: -0.21px;
+position: relative;
+top: 0px;
+left: -80px;
+
+}
+
+/* Code Styling */
+pre {
+  margin: 0;
+  text-align: left;
+
+}
+
+/* Syntax Highlighting */
+.keyword {
+  color: #C792EA;
+}
+
+.variable {
+  color: #FFF;
+}
+
+.symbol {
+  color: #89DDFF;
+}
+
+.property {
+  color: #80CBC4;
+}
+
+.string {
+  color: #A5E844;
+}
+
+
+
+
+
+
+
+
+  
+
+
+  
+    
+  </style>
+</head>
+<body class="bg-gray-200">
+
+  <section class="aboutScreen">
+    <div>
+      <img class="smalllineup" src="assets/images/smallLine.png" alt="">
+      <div class="hello">
+        Hello
+      </div>
+      <img class="smalllinedown" src="assets/images/Vector 2.svg" alt=""> 
+    </div>
+    <div class="nameline">
+      <h1 class="im">I’m </h1>
+      <h1 class="saumya">SAUMYA</h1>
+      <h1 class="herath">_HERATH_</h1>
+           
+    </div>
+    <div class="nametopline">Exploring Innovations in Technology </div>
+    <div>
+      <img class="comma" src="assets/images/comma.png" alt="">
+      <div class="aboutMeText">
+        UI/UX Designer and ICT Undergraduate at the University of Sri Jayewardenepura. Passionate about creating user-centered designs and leveraging modern technology to build innovative, impactful solutions.
+      </div>
+      <img class="me" src="assets/images/MyPhoto.png" alt="">
+      <button class="resumeButton">
+        <img class="imgresume" src="assets/images/resumeicon.svg" alt="">
+        <a class="txtresume" href="https://drive.google.com/file/d/1vVYQyHsBfRRStVcptRwjzAFHCiCL-Kr5/view?usp=sharing">Open Resume</a>        
+      </button>
+      <button class="linktreeButton">
+        <img class="linktreeimg" src="assets/images/linktreeicon.svg" alt="">
+        <a class="txtlinktre"  href="https://linktr.ee/Saumya_Herath">LinkTree</a>        
+      </button>
+    </div>
+    <div>
+      <img class="backbigrec" src="assets/images/bigRec.png" alt="">
+      <div>
+
+
+        <div class="profile-card">
+          <pre>
+            <span class="cardtopic">// Professional Profile</span> 
+  <span class="keyword">const</span> <span class="variable">saumya</span> <span class="symbol">= {</span>
+    <span class="property">role</span>: <span class="string">"UI/UX Designer"</span>,
+    <span class="property">education</span>: { 
+      <span class="property">degree</span>: <span class="string">"BSc (Hons) in Information Technology"</span>, 
+      <span class="property">university</span>: <span class="string">"University of Sri Jayewardenepura"</span> 
+    },
+    <span class="property">skills</span>: [
+      <span class="string">"UI/UX Design"</span>, 
+      <span class="string">"Quality Assurance"</span>, 
+      <span class="string">"Graphic Design"</span>, 
+      <span class="string">"Data Analysis"</span>, 
+      <span class="string">"Project Management"</span>, 
+      <span class="string">"IoT Solutions"</span>, 
+      <span class="string">"Front End Development"</span>
+    ],
+    <span class="property">technologies</span>: [
+      <span class="string">"Figma"</span>, <span class="string">"Photoshop"</span>, <span class="string">"Canvas"</span>, <span class="string">"React"</span>,
+      <span class="string">"JavaScript"</span>, <span class="string">"Python"</span>, <span class="string">"MERN Stack"</span>, 
+      <span class="string">"Mongo DB"</span>, <span class="string">"JIRA"</span>, <span class="string">"Asana"</span>, <span class="string">"Trello"</span>, <span class="string">"Arduino"</span>
+    ],
+    <span class="property">interests</span>: [
+      <span class="string">"Technology Innovation"</span>, <span class="string">"User-Centered Design"</span>, 
+      <span class="string">"IoT Applications"</span>, <span class="string">"Sustainable Tech"</span>
+    ]
+  <span class="symbol">};</span>
+          </pre>
+      </div>
+      </div>
+    </div>
+    
+  </section>
+
+</body>
+</html>

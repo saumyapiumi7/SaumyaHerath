@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Saumya Herath</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+  <style>
+    .homescreen{
+      background: #676767;
+      overflow: hidden;
+      
+    }
+    .name {
+      color: #F27507;
+      text-align: center;
+      text-shadow: 0px 4px 4px #000;
+      font-family: "Nerko One";
+      font-size: 200px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 180px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding-top: 100px;
+      margin-left: 100px;
+      
+    }
+    .herath{
+      color: #403E3C;
+      font-family: "Nerko One";
+      font-size: 200px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150px;
+      letter-spacing: 2px;
+      margin-left:300px ;
+    }
+    .blackLine1 {
+      position: absolute;
+      top: 60px;
+      left: 190px;
+      width: 100%;
+
+      
+    }
+    .Orange1 {
+      position: absolute;
+      top: 70px;
+      left: 70px;
+      width: 8%;
+      
+    }
+    .Black1{
+      position: absolute;
+      top: 150px;
+      left: 40px;
+      width: 25%;
+    }
+    .Orange2 {
+      position: absolute;
+      top: 380px;
+      left: 200px;
+      width: 23%;
+    }
+    .Black2 {
+      position: absolute;
+      top: 500px;
+      right: 160px;
+      width: 7%;
+    }
+    .Orange3 {
+      position: absolute;
+      top: 470px;
+      right: 30px;
+      width: 12%;
+    }
+    .blackLine2 {
+      position: absolute;
+      top: 280px;
+      left: 310px;
+      width: 100%;
+    }
+    .blackLine3 {
+      position: absolute;
+      top: 430px;
+      left: 50px;
+      width: 100%;
+    }
+    .blackLine4 {
+      position: absolute;
+      top: 120px;
+      right: -1100px;
+      width: 100%;
+    }
+    @media (max-width: 768px) and (min-width: 599px) {
+      .name {
+        font-size: 100px;
+        line-height: 100px;
+        margin-top: 100px;
+        margin-left: 80px;
+      }
+      .herath{
+        font-size: 100px;
+        line-height: 100px;
+        margin-left: 140px;
+      }
+      .blackLine1 {
+        left: 100px;
+        top: 100px;
+        width: 100px;
+      }
+      .Orange1 {
+        left: 20px;
+        top: 170px;
+        width: 15%;
+      }
+      .Black1 {
+        left: 40px;
+        top: 250px;
+        width: 30%;
+      }
+      .Orange2 {
+        left: 100px;
+        top: 440px;
+        width: 25%;
+
+      }
+      .Black2 {
+        right: 120px;
+        top: 520px;
+        width: 10%;
+      }
+      .Orange3 {
+        right: 10px;
+        top: 500px;
+        width: 18%;
+      }
+      .blackLine2 {
+        left: 220px;
+        top: 380px;
+        width: 100px;
+      }
+      .blackLine3 {
+        left: 20px;
+        top: 480px;
+        width: 100px;
+      }
+      .blackLine4 {
+        right: 50px;
+        top: 120px;
+        width: 100px;
+      }
+
+
+    }
+     
+    /* Responsive design for mobile */
+    @media (max-width: 600px) and (min-width: 300px){
+      /* Adjust the font size and position */
+      
+      .homescreen{
+        background: #676767;
+        overflow: hidden;
+        height: 50vh;
+      }
+      
+
+      .name {
+        font-size: 60px;
+        line-height: 60px;
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      .herath{
+        font-size: 60px;
+        line-height: 60px;
+        margin-left: 50px;
+      }
+      /* Adjust the cube position */
+     .blackLine1 {
+        left: 50px;
+        top: 50px;
+        width: 50px;
+      }
+      .Orange1 {
+        left: 10px;
+        top: 100px;
+        width: 10%;
+      }
+      .Black1 {
+        left: 20px;
+        top: 150px;
+        width: 20%;
+      }
+      .Orange2 {
+        left: 50px;
+        top: 250px;
+        width: 15%;
+      }
+      .Black2 {
+        right: 60px;
+        top: 300px;
+        width: 5%;
+      }
+      .Orange3 {
+        right: 5px;
+        top: 280px;
+        width: 10%;
+      }
+      .blackLine2 {
+        left: 100px;
+        top: 200px;
+        width: 50px;
+      }
+      .blackLine3 {
+        left: 10px;
+        top: 300px;
+        width: 50px;
+      }
+      .blackLine4 {
+        right: 20px;
+        top: 60px;
+        width: 50px;
+      }
+    }
+    /* Animation */
+    @keyframes rotateFade {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(180deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateRight {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateLeft {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+/* Apply animation to specific elements */
+
+.Black1, .Black2, .Orange1, .Orange2, .Orange3 {
+  animation: rotateFade 4s infinite linear;
+}
+
+.blackLine1, .blackLine2, .blackLine3{
+  animation: rotateRight 5s infinite linear;
+}
+
+.blackLine4 {
+  animation: rotateLeft 3s infinite linear;
+}
+
+
+@keyframes zoomIn {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.herath {
+  animation: zoomIn 1.5s ease-in-out;
+}
+
+
+    
+
+
+      
+
+    
+
+    
+  </style>
+</head>
+<body class="homescreen">
+
+  <!-- Main Section -->
+  <section class="name">
+    <h1>SAUMYA</h1>
+    <h1 class="herath">HERATH</h1>
+
+
+    <!-- Cubes -->
+    <div class="blackLine1">
+      <img src="assets/images/BlackLineRec.png" alt="">
+    </div>
+    <div class="blackLine2">
+      <img src="assets/images/BlackLineRec.png" alt="">
+    </div>
+    <div class="blackLine3">
+      <img src="assets/images/BlackLineRec.png" alt="">
+    </div>
+    <div class="blackLine4">
+      <img src="assets/images/BlackLineRec.png" alt="">
+    </div>
+    <div class="Black1">
+      <img src="assets/images/BlackRec.png" alt="">
+    </div>
+    <div class="Black2">
+      <img src="assets/images/BlackRec.png" alt="">
+    </div>
+    <div class="Orange1">
+      <img src="assets/images/OrengeRec.png" alt="">
+    </div>
+    <div class="Orange2">
+      <img src="assets/images/OrengeRec.png" alt="">
+    </div>
+    <div class="Orange3">
+      <img src="assets/images/OrengeRec.png" alt="">
+    </div>
+
+
+    
+    </div>
+  </section>
+
+</body>
+</html>
